@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    min-width: 200px;
+    transition: 0.5s ease-out;
+    border-radius: 20px;
+    position: relative;
+    height: 105px;
+    width: 30%;
+    overflow: hidden;
+    background-color:green;
+}
+.app .header{
+    text-align: center;
+}
+.header input{
+    
+    margin-top: 35px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.header button{
+    padding: 13px;
+    border-radius:50%;
+    outline: none;
+    border: none;
+    background: gray;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.weather-box, .not-found{
+    text-align: center;
+}
+.not-found{
+    display: none;
+}
+.not-found p{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.weather-box img, .not{
+    
+    width: 60%;
+    margin-top:30px;
+}
+.weather-box .temperature{
+    position: relative;
+    color:white;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-left: -16px;
+}
+
+.weather-box .temperature span{
+    position: absolute;
+    margin-left: 4px;
+    font-size: 1.5rem;
+}
+
+.weather-box .description{
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.weather-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+.humidity , .wind{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}         
+
+.humidity{
+    padding-left: 20px;
+    justify-content: flex-start;
+
+}
+
+.wind{
+    padding-right: 20px;
+    justify-content: flex-end   ;
+}
+
+.weather-details i{
+    color:white;
+    font-size: 26px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.weather-details span{
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.weather-details p{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}

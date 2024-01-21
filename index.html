@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <input type="text" id="search" placeholder="enter your country">
+            <button class="btnsrc"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+        </div>
+        <div class="not-found">
+            <img class="not" src="/images/404.png">
+            <p>Oops! invalid Location!!!</p>
+        </div>
+        <div class="weather-box">
+            <img src=""> 
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                <span></span>
+                <p>wind Speed</p>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
