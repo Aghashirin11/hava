@@ -125,3 +125,31 @@ body{
     font-size: 14px;
     font-weight: 500;
 }
+@media only screen and (max-width: 821px){
+    .app{
+        width: 10%;
+    }
+
+    .weather-details span{
+        font-size: 16px;
+    }
+    .weather-details i{
+        font-size: 16px;
+    }
+    .humidity{
+        padding-left: 10px;
+        justify-content: flex-start;
+    
+    }
+    
+    .wind{
+        padding-right: 10px;
+        justify-content: flex-end   ;
+    }
+    .weather-details p{
+        text-transform: capitalize;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
