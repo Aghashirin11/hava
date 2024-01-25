@@ -127,7 +127,7 @@ body{
 }
 @media only screen and (max-width: 821px){
     .app{
-        width: 10%;
+        width: 70%;
     }
 
     .weather-details span{
