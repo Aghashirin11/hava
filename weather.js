@@ -58,7 +58,7 @@ function Data(){
 
     weatherBox.style.display = '';
     weatherDetails.style.display = '';
-app.style.height = '540px';
+app.style.height = '570px';
 
 
 
